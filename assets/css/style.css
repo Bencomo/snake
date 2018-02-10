@@ -1,0 +1,246 @@
+/*Copyright (c) 2016-2018 Benfont, Ltd. all rights reserved*/
+@media (min-width: 768px) {
+  .section-column {
+    max-width: 970px;
+    padding: 0 30px 30px;
+    float: none;
+    display: table-cell;
+  }
+  .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+  }
+}
+
+/*------------------------------------Website Background*/
+.bg-all {
+  overflow-x: hidden;
+  font-family: 'Roboto Mono', sans-serif;
+  background-color: #000000;
+  padding-top: 70px;
+}
+
+/*------------------------------------NavBar*/
+.first {
+  height: 100vh;
+  min-height: 400px;
+}
+
+.affix {
+  -webkit-transition: padding 0.2s ease-out;
+  -moz-transition: padding 0.2s ease-out;
+  -o-transition: padding 0.2s ease-out;
+  transition: padding 0.2s ease-out;
+}
+
+@media (min-width: 768px) {
+  .affix-top {
+    /* navbar style at top */
+    background: transparent;
+    border-color: transparent;
+    padding: 15px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+}
+
+.affix-top .nav > li > a {
+  color: #444444;
+}
+
+.affix-top.navbar .nav > li > a:hover,
+.affix-top.navbar .navbar-brand {
+  cursor: pointer;
+  color: #444444;
+}
+
+section {
+  height: calc(90% - 50px);
+  height: 90vh;
+}
+
+/*------------------------------------Benfont Logo*/
+#logo:hover {
+  cursor: pointer;
+}
+.subtitle {
+  font-size: 3vh;
+  text-align: center;
+  color: #fafafa;
+  padding-bottom: 22.5px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.sub2 h1 {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
+  margin-bottom: 0;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+#row_input {
+  float: none;
+  margin: 0 auto;
+}
+/*------------------------------------About Section*/
+.cfluid {
+  padding: 0 !important;
+}
+
+.about {
+  margin-top: 0;
+  text-align: center;
+  color: #fafafa;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0;
+}
+.undertext {
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+/* Contact Form */
+
+.contact-form {
+  max-width: 1140px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.contact-section {
+  text-align: center;
+}
+
+.snd_msg {
+  text-align: center;
+}
+
+/*------------------------------------Carousel*/
+.carousel-style {
+  padding: 1px;
+  border: 1px solid #021a40;
+  background-color: #fff;
+}
+
+.carousel-caption {
+  cursor: pointer;
+  color: #fafafa;
+  text-shadow: 4px 2px 4px #000000;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+.carousel-caption:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+.carousel-caption a {
+  color: inherit;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+/*------------------------------------AppStore*/
+.appstore {
+  text-align: center;
+  color: #fafafa;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.snake-div {
+ text-align: center;
+  color: #fafafa;
+}
+.snake {
+ text-align: center;
+  color: #fafafa;
+}
+.appstore_image {
+  padding: 1px;
+  border: 1px solid #021a40;
+  background-color: #fff;
+}
+
+/*------------------------------------Footer*/
+footer {
+  background-color: #444444;
+  color: #fafafa;
+  min-height: 150px;
+  margin: 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.social {
+  text-align: center;
+  padding-bottom: 0px;
+  font-size: 3.5vh;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+social-links {
+  padding-bottom: 15px;
+}
+
+.social-links li a i {
+  width: 32px;
+  height: 32px;
+  padding: 4px 0;
+  padding-left: 4.5px;
+  border-radius: 28%;
+  font-size: 25px;
+  line-height: 25px;
+  color: #fafafa;
+  background: #634e4e;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+  background: #e84610;
+}
+
+#footer-details {
+  margin: 15px;
+}
+
+section {
+  padding: 150px 0;
+}
+/*------------------------------------Footer*/
+
+.final {
+  vertical-align: center;
+  text-align: center;
+  color: #fafafa;
+}
